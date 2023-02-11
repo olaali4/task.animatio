@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    width: 1350px;
+    height: 700px;
+    background-color: rgb(141, 133, 133);
+    position: relative;
+}
+.div1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    background-image: url(../img/images\ \(1\).jpg\ 1\ 1.jpg);
+    background-size: cover;
+}
+ @keyframes change {
+    from {background-color: brown;  left: 0px;} 
+    to { background-color: green;left: 1150px;}
+} 
+/* /////////////////// */
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top:100px;
+    animation-delay: 6s ; 
+    position: absolute;
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards; 
+    animation-direction: reverse; 
+    animation-timing-function: ease;
+    margin-top: 100px; 
+    animation-delay: 6s;
+    background-image: url(../img/images.jpg);
+    background-size:cover;
+}
+@keyframes change {
+    from {background-color: brown;  right: 0;} 
+    to { background-color: green;  right: 1150px; }
+} 
+/* ////////////////// */
+.div3{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    margin-top: 200px;
+    animation-delay: 12s;
+    background-image: url(../img/download.jpg\ 3.jpg);
+    background-size:cover;
+}
+ @keyframes change {
+    from {background-color: brown;  left: 0px;} 
+    to { background-color: green;left: 1150px;}
+} 
+
+.div4{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top:300px;
+    position: absolute;
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards; 
+    animation-direction: reverse; 
+    animation-timing-function: ease;
+    animation-delay: 18s;
+    background-image: url(../img/download.jpg6.jpg);
+    background-size:cover;
+}
+@keyframes change {
+    from {background-color: brown;  right: 0;} 
+    to { background-color: green;  right: 1150px; }
+} 
+
+
+.div5{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    margin-top: 400px;
+    animation-delay: 24s;
+    background-image: url(../img/images\ \(1\).jpg\ 5.jpg);
+    background-size:cover;
+}
+ @keyframes change {
+    from {background-color: brown;  left: 0px;} 
+    to { background-color: green;left: 1150px;}
+} 
+
+
+.div6{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top:500px;
+    position: absolute;
+
+    animation-name: change;
+    animation-duration: 6s;
+    animation-fill-mode: forwards; 
+    animation-direction: reverse; 
+    animation-timing-function: ease;
+    animation-delay: 30s;
+    background-image: url(../img/images\ \(3\).jpg);
+    background-size:cover;
+}
+@keyframes change {
+    from {background-color: brown;  right: 0;} 
+    to { background-color: green;  right: 1150px; }
+} 
